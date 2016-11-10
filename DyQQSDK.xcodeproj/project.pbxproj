@@ -8,14 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		710FEE251DD4587E00C4AA79 /* DyQQSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE231DD4587E00C4AA79 /* DyQQSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		710FEE431DD45BEC00C4AA79 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */; };
+		710FEE6A1DD47BF200C4AA79 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE651DD47BF200C4AA79 /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE6B1DD47BF200C4AA79 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE661DD47BF200C4AA79 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE6C1DD47BF200C4AA79 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE671DD47BF200C4AA79 /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE6D1DD47BF200C4AA79 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE681DD47BF200C4AA79 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE6E1DD47BF200C4AA79 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE691DD47BF200C4AA79 /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE701DD47C0D00C4AA79 /* TencentOpenAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE6F1DD47C0D00C4AA79 /* TencentOpenAPI.a */; };
+		710FEE8C1DD47ECC00C4AA79 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE8B1DD47ECC00C4AA79 /* CoreFoundation.framework */; };
+		710FEE8E1DD47EF400C4AA79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE8D1DD47EF400C4AA79 /* Foundation.framework */; };
+		710FEE911DD47F1300C4AA79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE8F1DD47F0500C4AA79 /* UIKit.framework */; };
+		710FEE931DD47F8300C4AA79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE831DD47E0700C4AA79 /* CoreGraphics.framework */; };
+		710FEE941DD47F9400C4AA79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE721DD47CA700C4AA79 /* SystemConfiguration.framework */; };
+		710FEE951DD47FB200C4AA79 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE881DD47E2000C4AA79 /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		710FEE201DD4587E00C4AA79 /* DyQQSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DyQQSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FEE231DD4587E00C4AA79 /* DyQQSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyQQSDK.h; sourceTree = "<group>"; };
 		710FEE241DD4587E00C4AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		710FEE651DD47BF200C4AA79 /* QQApiInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		710FEE661DD47BF200C4AA79 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		710FEE671DD47BF200C4AA79 /* sdkdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		710FEE681DD47BF200C4AA79 /* TencentOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		710FEE691DD47BF200C4AA79 /* TencentOAuthObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAuthObject.h; sourceTree = "<group>"; };
+		710FEE6F1DD47C0D00C4AA79 /* TencentOpenAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TencentOpenAPI.a; sourceTree = "<group>"; };
+		710FEE721DD47CA700C4AA79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		710FEE741DD47CAD00C4AA79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		710FEE761DD47CB500C4AA79 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		710FEE781DD47CC100C4AA79 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		710FEE7A1DD47CC700C4AA79 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		710FEE7C1DD47CCF00C4AA79 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		710FEE7E1DD47CD500C4AA79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		710FEE801DD47DFA00C4AA79 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		710FEE831DD47E0700C4AA79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		710FEE851DD47E1100C4AA79 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		710FEE881DD47E2000C4AA79 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		710FEE8B1DD47ECC00C4AA79 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		710FEE8D1DD47EF400C4AA79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		710FEE8F1DD47F0500C4AA79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,7 +53,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710FEE431DD45BEC00C4AA79 /* TencentOpenAPI.framework in Frameworks */,
+				710FEE951DD47FB200C4AA79 /* libstdc++.tbd in Frameworks */,
+				710FEE941DD47F9400C4AA79 /* SystemConfiguration.framework in Frameworks */,
+				710FEE931DD47F8300C4AA79 /* CoreGraphics.framework in Frameworks */,
+				710FEE911DD47F1300C4AA79 /* UIKit.framework in Frameworks */,
+				710FEE8E1DD47EF400C4AA79 /* Foundation.framework in Frameworks */,
+				710FEE8C1DD47ECC00C4AA79 /* CoreFoundation.framework in Frameworks */,
+				710FEE701DD47C0D00C4AA79 /* TencentOpenAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +71,7 @@
 			children = (
 				710FEE221DD4587E00C4AA79 /* DyQQSDK */,
 				710FEE211DD4587E00C4AA79 /* Products */,
+				710FEE711DD47CA600C4AA79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,10 +87,36 @@
 			isa = PBXGroup;
 			children = (
 				710FEE231DD4587E00C4AA79 /* DyQQSDK.h */,
-				710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */,
+				710FEE651DD47BF200C4AA79 /* QQApiInterface.h */,
+				710FEE661DD47BF200C4AA79 /* QQApiInterfaceObject.h */,
+				710FEE671DD47BF200C4AA79 /* sdkdef.h */,
+				710FEE681DD47BF200C4AA79 /* TencentOAuth.h */,
+				710FEE691DD47BF200C4AA79 /* TencentOAuthObject.h */,
+				710FEE6F1DD47C0D00C4AA79 /* TencentOpenAPI.a */,
 				710FEE241DD4587E00C4AA79 /* Info.plist */,
 			);
 			path = DyQQSDK;
+			sourceTree = "<group>";
+		};
+		710FEE711DD47CA600C4AA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710FEE8F1DD47F0500C4AA79 /* UIKit.framework */,
+				710FEE8D1DD47EF400C4AA79 /* Foundation.framework */,
+				710FEE8B1DD47ECC00C4AA79 /* CoreFoundation.framework */,
+				710FEE881DD47E2000C4AA79 /* libstdc++.tbd */,
+				710FEE851DD47E1100C4AA79 /* libsqlite3.tbd */,
+				710FEE831DD47E0700C4AA79 /* CoreGraphics.framework */,
+				710FEE801DD47DFA00C4AA79 /* libiconv.tbd */,
+				710FEE7E1DD47CD500C4AA79 /* Security.framework */,
+				710FEE7C1DD47CCF00C4AA79 /* libz.tbd */,
+				710FEE7A1DD47CC700C4AA79 /* libz.1.2.5.tbd */,
+				710FEE781DD47CC100C4AA79 /* libicucore.tbd */,
+				710FEE761DD47CB500C4AA79 /* CoreTelephony.framework */,
+				710FEE741DD47CAD00C4AA79 /* QuartzCore.framework */,
+				710FEE721DD47CA700C4AA79 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,6 +127,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				710FEE251DD4587E00C4AA79 /* DyQQSDK.h in Headers */,
+				710FEE6B1DD47BF200C4AA79 /* QQApiInterfaceObject.h in Headers */,
+				710FEE6A1DD47BF200C4AA79 /* QQApiInterface.h in Headers */,
+				710FEE6C1DD47BF200C4AA79 /* sdkdef.h in Headers */,
+				710FEE6D1DD47BF200C4AA79 /* TencentOAuth.h in Headers */,
+				710FEE6E1DD47BF200C4AA79 /* TencentOAuthObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +322,8 @@
 				INFOPLIST_FILE = DyQQSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/DyQQSDK";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyQQSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -276,6 +346,8 @@
 				INFOPLIST_FILE = DyQQSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/DyQQSDK";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyQQSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
