@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		710FEE251DD4587E00C4AA79 /* DyQQSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEE231DD4587E00C4AA79 /* DyQQSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEE431DD45BEC00C4AA79 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		710FEE201DD4587E00C4AA79 /* DyQQSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DyQQSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FEE231DD4587E00C4AA79 /* DyQQSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyQQSDK.h; sourceTree = "<group>"; };
 		710FEE241DD4587E00C4AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FEE431DD45BEC00C4AA79 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				710FEE231DD4587E00C4AA79 /* DyQQSDK.h */,
+				710FEE421DD45BEC00C4AA79 /* TencentOpenAPI.framework */,
 				710FEE241DD4587E00C4AA79 /* Info.plist */,
 			);
 			path = DyQQSDK;
@@ -243,6 +247,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DyQQSDK",
+				);
 				INFOPLIST_FILE = DyQQSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -261,6 +269,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DyQQSDK",
+				);
 				INFOPLIST_FILE = DyQQSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
